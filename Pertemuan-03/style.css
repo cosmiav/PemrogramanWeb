@@ -1,0 +1,27 @@
+body {
+    background-color: rgb(12, 12, 12);
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px 20px 0px 20px;
+}
+
+.class1, 
+.class2 {
+    padding: 10px;
+    color: white;
+    margin-top: 20px;
+}
+
+.class1 {
+    background-color: rgb(22, 60, 82);
+
+}
+
+.class2 {
+    background-color: rgb(22, 43, 82);
+    border: 3px solid rgb(71, 143, 107);
+    margin-left: 100px;
+}
+
+p.one {
+    margin-left: inherit;
+}
