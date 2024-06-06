@@ -2,14 +2,14 @@ body {
   background: bisque;
 }
 
-header {
+.header {
   background: lightcoral;
   padding: 20px;
   text-align: center;
   font-size: 35px;
 }
 
-nav {
+.nav {
   background: lightseagreen;
   padding: 10px;
   text-align: center;
@@ -21,18 +21,18 @@ li {
   display: inline;
 }
 
-nav li a {
+.nav li a {
   text-decoration: none;
   margin: 10px;
   color: black;
 }
 
-nav li a:hover {
+.nav li a:hover {
   color: rebeccapurple;
   background: white;
 }
 
-section {
+.container {
   margin: 0 auto;
   weight: 100%;
   height: 222px;
@@ -42,31 +42,32 @@ h3 {
   margin: 0px;
 }
 
-article {
+#Artikel {
   background: mediumpurple;
   padding: 40px;
   float: left;
   width: 900px;
 }
 
-aside {
+.sidebar {
   float: left;
   background: lightskyblue;
   padding: 31px;
+  width: 382px;
 }
 
-aside h3,
-aside p {
+.sidebar h3,
+.sidebar p {
   margin-left: 30px;
 }
 
-footer {
+.footer {
   background-color: yellowgreen;
   padding: 10px;
   text-align: center;
   color: white;
 }
 
-footer p {
+.footer p {
   margin-top: 20px;
 }
